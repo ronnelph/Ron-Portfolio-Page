@@ -3,45 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ronnel Estrada — Luxury Real Estate Specialist | Cebu, Philippines</title>
-<meta name="description" content="Ronnel Estrada — Island-born. World-shaped. Purpose-driven. Luxury real estate specialist with Shang Properties, psychology enthusiast, and lifelong learner based in Cebu City, Philippines.">
+<title>Ronnel Estrada — Island-born. World-shaped. Purpose-driven.</title>
+<meta name="description" content="Ronnel Estrada — Licensed real estate advisor based in Cebu City, Philippines. Psychology-informed, client-first, and built on a journey from Siargao to the world and back.">
 <meta name="author" content="Ronnel Estrada">
-<meta name="keywords" content="Ronnel Estrada, luxury real estate, Shang Properties, Cebu, Philippines, property specialist, Shang Bauhinia Residences">
+<meta name="keywords" content="Ronnel Estrada, real estate advisor Cebu, EstateLink, licensed real estate salesperson Philippines, OFW investment advisor, Cebu real estate">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://ronnelestrada.com/">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ronnelestrada.com/">
 <meta property="og:title" content="Ronnel Estrada — Island-born. World-shaped. Purpose-driven.">
-<meta property="og:description" content="Luxury real estate specialist, psychology enthusiast, and lifelong learner based in Cebu City, Philippines.">
-<meta property="og:image" content="assets/ronnel-photo.jpg">
+<meta property="og:description" content="Licensed real estate advisor in Cebu. Psychology-informed. Built on a journey from Siargao to the world and back.">
+<meta property="og:image" content="https://ronnelestrada.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ronnel Estrada on a Cebu rooftop, city skyline behind him">
+<meta property="og:locale" content="en_PH">
+<meta property="og:site_name" content="Ronnel Estrada">
 
-<!-- Twitter -->
+<!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ronnel Estrada — Island-born. World-shaped. Purpose-driven.">
-<meta name="twitter:description" content="Luxury real estate specialist, psychology enthusiast, and lifelong learner based in Cebu City, Philippines.">
-<meta name="twitter:image" content="assets/ronnel-photo.jpg">
+<meta name="twitter:description" content="Licensed real estate advisor in Cebu. Psychology-informed. Built on a journey from Siargao to the world and back.">
+<meta name="twitter:image" content="https://ronnelestrada.com/assets/og-image.png">
+<meta name="twitter:image:alt" content="Ronnel Estrada on a Cebu rooftop, city skyline behind him">
 
-<!-- Favicon (inline SVG data URI so no extra file needed) -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+<!-- Theme color for mobile browsers -->
+<meta name="theme-color" content="#0F2640">
+
+<!-- Favicon (inline SVG) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230F2640'/><text x='50' y='68' font-size='60' font-family='Georgia,serif' fill='%23C4A265' text-anchor='middle' font-style='italic'>R</text></svg>">
+
+<!-- Structured Data (Person schema) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ronnel Estrada",
+  "url": "https://ronnelestrada.com",
+  "image": "https://ronnelestrada.com/assets/og-image.png",
+  "jobTitle": "Licensed Real Estate Advisor",
+  "worksFor": [
+    { "@type": "Organization", "name": "EstateLink" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cebu City",
+    "addressCountry": "PH"
+  },
+  "sameAs": [
+    "https://www.facebook.com/ronnelestrada28",
+    "https://www.instagram.com/ronvibeph/",
+    "https://ph.linkedin.com/in/ronnelestrada"
+  ]
+}
+</script>
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
 :root {
   --navy: #1B3A5C;
   --navy-deep: #0F2640;
+  --navy-mid: #234B6E;
   --cream: #F5F0EB;
   --cream-light: #FAF8F5;
+  --cream-dark: #EDE7DD;
   --gold: #C4A265;
   --gold-soft: #D4B97A;
-  --green: #2D6B4A;
-  --green-soft: #8FA98B;
+  --gold-deep: #A88648;
   --charcoal: #2A2A2A;
   --warm-gray: #7A7267;
+  --warm-gray-light: #A69E92;
   --border-light: rgba(196, 162, 101, 0.2);
+  --border-medium: rgba(196, 162, 101, 0.35);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -52,26 +92,116 @@ html {
 }
 
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   color: var(--charcoal);
   background: var(--cream-light);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  font-weight: 400;
 }
 
-/* Noise texture overlay */
+/* Subtle noise texture */
 body::before {
   content: '';
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 9999;
+  mix-blend-mode: multiply;
 }
 
-/* Typography */
-h1, h2, h3, .display-font {
-  font-family: 'Playfair Display', Georgia, serif;
+/* Typography system */
+h1, h2, h3, h4, .serif {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+.label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ===== STICKY NAV ===== */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+  background: transparent;
+  color: var(--cream);
+}
+
+.nav.scrolled {
+  background: rgba(15, 38, 64, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 14px 40px;
+  border-bottom: 1px solid rgba(196, 162, 101, 0.15);
+}
+
+.nav-brand {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-brand em {
+  font-style: italic;
+  color: var(--gold-soft);
+  font-weight: 400;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.75;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+  color: var(--gold-soft);
+}
+
+.nav-cta {
+  padding: 8px 18px;
+  border: 1px solid var(--gold);
+  border-radius: 2px;
+  color: var(--gold-soft) !important;
+  opacity: 1 !important;
+}
+
+.nav-cta:hover {
+  background: var(--gold);
+  color: var(--navy-deep) !important;
+}
+
+@media (max-width: 768px) {
+  .nav { padding: 16px 20px; }
+  .nav-links { display: none; }
 }
 
 /* ===== HERO ===== */
@@ -81,17 +211,19 @@ h1, h2, h3, .display-font {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(165deg, var(--navy-deep) 0%, var(--navy) 45%, #234B6E 100%);
+  background:
+    linear-gradient(165deg, var(--navy-deep) 0%, var(--navy) 45%, var(--navy-mid) 100%);
   overflow: hidden;
+  padding: 100px 0 80px;
 }
 
 .hero::before {
   content: '';
   position: absolute;
-  top: -50%; right: -20%;
-  width: 80%;
-  height: 200%;
-  background: radial-gradient(ellipse, rgba(196, 162, 101, 0.06) 0%, transparent 70%);
+  top: -30%; right: -15%;
+  width: 70%;
+  height: 170%;
+  background: radial-gradient(ellipse, rgba(196, 162, 101, 0.08) 0%, transparent 65%);
   pointer-events: none;
 }
 
@@ -99,19 +231,20 @@ h1, h2, h3, .display-font {
   content: '';
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  height: 120px;
+  height: 140px;
   background: linear-gradient(to top, var(--cream-light), transparent);
   z-index: 2;
+  pointer-events: none;
 }
 
 .hero-inner {
   display: flex;
   align-items: center;
-  gap: 80px;
-  max-width: 1100px;
+  gap: 90px;
+  max-width: 1140px;
   width: 90%;
-  padding: 60px 0;
   z-index: 1;
+  position: relative;
 }
 
 .hero-photo-wrapper {
@@ -122,23 +255,34 @@ h1, h2, h3, .display-font {
 .hero-photo-wrapper::before {
   content: '';
   position: absolute;
-  top: -8px; left: -8px;
-  right: 8px; bottom: 8px;
+  top: -10px; left: -10px;
+  right: 10px; bottom: 10px;
   border: 1px solid var(--gold);
-  opacity: 0.4;
-  border-radius: 4px;
+  opacity: 0.5;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.hero-photo-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 16px; left: 16px;
+  right: -12px; bottom: -12px;
+  background: linear-gradient(135deg, rgba(196, 162, 101, 0.12), transparent);
+  border-radius: 2px;
+  z-index: -1;
 }
 
 .hero-photo {
-  width: 340px;
-  height: 420px;
+  width: 360px;
+  height: 450px;
   object-fit: cover;
-  object-position: center top;
-  border-radius: 4px;
+  object-position: center 18%;
+  border-radius: 2px;
   display: block;
   position: relative;
   z-index: 1;
-  box-shadow: 0 30px 60px rgba(0,0,0,0.3), 0 10px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 40px 80px rgba(0,0,0,0.35), 0 12px 24px rgba(0,0,0,0.22);
 }
 
 .hero-text {
@@ -146,251 +290,531 @@ h1, h2, h3, .display-font {
 }
 
 .hero-greeting {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 300;
-  font-size: 0.95rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   opacity: 0;
-  animation: fadeUp 0.8s ease 0.3s forwards;
+  animation: fadeUp 0.8s ease 0.2s forwards;
+}
+
+.hero-greeting::before {
+  content: '—';
+  margin-right: 12px;
+  opacity: 0.6;
 }
 
 .hero-name {
-  font-size: 3.8rem;
+  font-size: clamp(2.8rem, 6vw, 4.4rem);
   font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: -0.5px;
-  margin-bottom: 24px;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin-bottom: 28px;
   opacity: 0;
-  animation: fadeUp 0.8s ease 0.5s forwards;
+  animation: fadeUp 0.9s ease 0.4s forwards;
 }
 
 .hero-name em {
   font-style: italic;
   font-weight: 400;
   color: var(--gold-soft);
+  display: block;
+  font-size: 0.9em;
 }
 
 .hero-tagline {
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 1.7;
-  color: rgba(245, 240, 235, 0.75);
-  max-width: 420px;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(245, 240, 235, 0.9);
+  max-width: 460px;
+  margin-bottom: 24px;
   opacity: 0;
-  animation: fadeUp 0.8s ease 0.7s forwards;
+  animation: fadeUp 0.9s ease 0.6s forwards;
 }
 
-.hero-tagline strong {
-  color: var(--cream);
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(245, 240, 235, 0.7);
+  max-width: 460px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease 0.75s forwards;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeUp 0.9s ease 0.9s forwards;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 0.85rem;
   font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--navy-deep);
+  border-color: var(--gold);
+}
+
+.btn-primary:hover {
+  background: var(--gold-soft);
+  border-color: var(--gold-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(196, 162, 101, 0.3);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--cream);
+  border-color: rgba(245, 240, 235, 0.3);
+}
+
+.btn-ghost:hover {
+  border-color: var(--gold);
+  color: var(--gold-soft);
+}
+
+.btn-arrow {
+  font-size: 1.1em;
+  transition: transform 0.3s;
+}
+
+.btn:hover .btn-arrow {
+  transform: translateX(4px);
 }
 
 .hero-scroll {
   position: absolute;
-  bottom: 40px;
+  bottom: 38px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   color: var(--gold);
-  font-size: 0.75rem;
-  letter-spacing: 2px;
+  font-size: 0.68rem;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0;
-  animation: fadeUp 0.8s ease 1.2s forwards;
+  animation: fadeUp 0.8s ease 1.3s forwards;
   text-decoration: none;
 }
 
 .scroll-line {
   width: 1px;
-  height: 40px;
+  height: 42px;
   background: linear-gradient(to bottom, var(--gold), transparent);
-  animation: scrollPulse 2s ease infinite;
+  animation: scrollPulse 2.2s ease infinite;
 }
 
-/* ===== SECTION STYLES ===== */
+/* ===== SECTIONS ===== */
 section {
-  padding: 100px 0;
+  padding: 120px 0;
+  position: relative;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1140px;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.container-narrow {
+  max-width: 880px;
   width: 88%;
   margin: 0 auto;
 }
 
 .section-label {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 400;
-  font-size: 0.8rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-label::before {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--gold);
 }
 
 .section-heading {
-  font-size: 2.6rem;
+  font-size: clamp(2rem, 4vw, 2.9rem);
   font-weight: 500;
   color: var(--navy);
-  line-height: 1.2;
-  margin-bottom: 40px;
+  line-height: 1.1;
+  margin-bottom: 48px;
+  letter-spacing: -0.02em;
+}
+
+.section-heading em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gold-deep);
 }
 
 /* ===== STORY ===== */
 .story {
   background: var(--cream-light);
-  position: relative;
 }
 
-.story-content {
+.story-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
   align-items: start;
 }
 
-.story-text p {
-  font-size: 1.05rem;
-  line-height: 1.85;
+.story-image-wrap {
+  position: sticky;
+  top: 100px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.story-image-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom right, transparent 60%, rgba(15, 38, 64, 0.2));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.story-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.story-image-caption {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 0.88rem;
   color: var(--warm-gray);
-  margin-bottom: 20px;
-  font-weight: 300;
+  margin-top: 16px;
+  padding-left: 20px;
+  border-left: 2px solid var(--gold);
+  line-height: 1.5;
+}
+
+.story-text p {
+  font-size: 1.04rem;
+  line-height: 1.85;
+  color: #3A3A3A;
+  margin-bottom: 22px;
+  font-weight: 400;
 }
 
 .story-text p:first-child::first-letter {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-family: 'Fraunces', serif;
+  font-size: 4rem;
   float: left;
-  line-height: 1;
-  margin-right: 10px;
-  margin-top: 4px;
+  line-height: 0.85;
+  margin-right: 12px;
+  margin-top: 8px;
   color: var(--navy);
   font-weight: 600;
 }
 
-.story-sidebar {
-  position: sticky;
-  top: 80px;
+.story-text p strong {
+  color: var(--navy);
+  font-weight: 500;
+}
+
+.story-text em {
+  color: var(--gold-deep);
+  font-style: italic;
+}
+
+/* ===== JOURNEY TIMELINE ===== */
+.journey {
+  background: var(--cream-dark);
+  padding: 100px 0;
 }
 
 .journey-list {
   list-style: none;
-  border-left: 2px solid var(--border-light);
-  padding-left: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  counter-reset: journey;
 }
 
 .journey-list li {
   position: relative;
-  margin-bottom: 28px;
-  font-size: 0.95rem;
-  color: var(--warm-gray);
-  font-weight: 300;
-  line-height: 1.5;
+  padding-top: 36px;
+  counter-increment: journey;
 }
 
 .journey-list li::before {
+  content: counter(journey, decimal-leading-zero);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Fraunces', serif;
+  font-size: 0.78rem;
+  color: var(--gold);
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+
+.journey-list li::after {
   content: '';
   position: absolute;
-  left: -33px;
-  top: 7px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--gold);
-  border: 2px solid var(--cream-light);
+  top: 12px;
+  left: 30px;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, var(--gold), transparent);
 }
 
-.journey-list li strong {
-  display: block;
-  font-weight: 600;
+.journey-list h4 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.05rem;
+  font-weight: 500;
   color: var(--navy);
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
 }
 
-/* ===== EXPERTISE ===== */
-.expertise {
+.journey-list p {
+  font-size: 0.9rem;
+  color: var(--warm-gray);
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+/* ===== WHAT I DO ===== */
+.work {
   background: var(--navy);
   color: var(--cream);
   position: relative;
   overflow: hidden;
 }
 
-.expertise::before {
+.work::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse at 80% 20%, rgba(196, 162, 101, 0.05) 0%, transparent 60%);
+  top: 0; right: 0;
+  width: 50%;
+  height: 100%;
+  background: radial-gradient(ellipse at top right, rgba(196, 162, 101, 0.08) 0%, transparent 60%);
+  pointer-events: none;
 }
 
-.expertise .section-heading {
-  color: var(--cream);
+.work .section-heading { color: var(--cream); }
+.work .section-heading em { color: var(--gold-soft); }
+
+.work-lead {
+  max-width: 560px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(245, 240, 235, 0.7);
+  margin-bottom: 64px;
+  font-weight: 300;
 }
 
-.expertise-grid {
+.work-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-top: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 880px;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
 
-.expertise-card {
-  padding: 36px 28px;
-  border: 1px solid rgba(196, 162, 101, 0.15);
-  border-radius: 4px;
+.work-card {
+  padding: 48px 40px;
+  border: 1px solid rgba(196, 162, 101, 0.18);
+  background: rgba(255,255,255,0.015);
   transition: all 0.4s ease;
-  background: rgba(255,255,255,0.02);
+  position: relative;
+  overflow: hidden;
 }
 
-.expertise-card:hover {
-  border-color: var(--gold);
-  background: rgba(196, 162, 101, 0.05);
-  transform: translateY(-4px);
+.work-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
 }
 
-.expertise-icon {
-  font-size: 1.8rem;
-  margin-bottom: 18px;
-  display: block;
+.work-card:hover {
+  border-color: rgba(196, 162, 101, 0.5);
+  background: rgba(196, 162, 101, 0.04);
+  transform: translateY(-6px);
 }
 
-.expertise-card h3 {
-  font-size: 1.15rem;
+.work-card:hover::before {
+  transform: scaleX(1);
+}
+
+.work-card-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 4px 10px;
+  border: 1px solid rgba(196, 162, 101, 0.3);
+  margin-bottom: 24px;
+  border-radius: 2px;
   font-weight: 500;
-  margin-bottom: 12px;
+}
+
+.work-card h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 16px;
   color: var(--cream);
+  letter-spacing: -0.01em;
 }
 
-.expertise-card p {
-  font-size: 0.92rem;
-  line-height: 1.7;
-  color: rgba(245, 240, 235, 0.6);
-  font-weight: 300;
-}
-
-.dev-list {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 0.88rem;
-  color: rgba(245, 240, 235, 0.4);
-  letter-spacing: 0.5px;
-  font-weight: 300;
-}
-
-.dev-list span {
+.work-card h3 em {
+  font-style: italic;
   color: var(--gold-soft);
-  margin: 0 6px;
+  font-weight: 400;
+}
+
+.work-card p {
+  font-size: 0.94rem;
+  line-height: 1.7;
+  color: rgba(245, 240, 235, 0.68);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.work-card-link {
+  color: var(--gold-soft);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap 0.3s, color 0.3s;
+}
+
+.work-card-link:hover {
+  color: var(--gold);
+  gap: 12px;
+}
+
+/* ===== CEBU SHOT (FULL BLEED) ===== */
+.cebu-feature {
+  padding: 0;
+  background: var(--cream-light);
+}
+
+.cebu-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+}
+
+.cebu-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.cebu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 1.2s ease;
+}
+
+.cebu-feature-grid:hover .cebu-image img {
+  transform: scale(1.04);
+}
+
+.cebu-text {
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--cream-light);
+}
+
+.cebu-text .section-label {
+  margin-bottom: 24px;
+}
+
+.cebu-text h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.15;
+  margin-bottom: 28px;
+  letter-spacing: -0.02em;
+}
+
+.cebu-text h2 em {
+  font-style: italic;
+  color: var(--gold-deep);
+}
+
+.cebu-text p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: var(--warm-gray);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.cebu-credentials {
+  margin-top: 20px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.85rem;
+  color: var(--warm-gray);
+  line-height: 1.7;
+}
+
+.cebu-credentials strong {
+  display: block;
+  color: var(--navy);
+  font-weight: 500;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  text-transform: uppercase;
 }
 
 /* ===== PASSIONS ===== */
@@ -401,32 +825,37 @@ section {
 .passions-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 36px;
-  margin-top: 50px;
+  gap: 24px;
 }
 
 .passion-item {
-  padding: 44px 32px;
+  padding: 44px 36px;
   background: white;
-  border-radius: 4px;
   border: 1px solid var(--border-light);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  position: relative;
+  border-radius: 2px;
 }
 
 .passion-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  box-shadow: 0 24px 48px rgba(27, 58, 92, 0.08);
+  border-color: var(--border-medium);
 }
 
 .passion-header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 14px;
   margin-bottom: 14px;
 }
 
-.passion-emoji {
-  font-size: 2rem;
+.passion-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-weight: 500;
+  letter-spacing: 0.1em;
   flex-shrink: 0;
 }
 
@@ -434,77 +863,196 @@ section {
   font-size: 1.15rem;
   font-weight: 500;
   color: var(--navy);
+  letter-spacing: -0.01em;
 }
 
 .passion-item p {
-  font-size: 0.92rem;
+  font-size: 0.94rem;
   color: var(--warm-gray);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
 }
 
 .passion-authors {
-  margin-top: 14px;
-  padding-top: 14px;
+  margin-top: 18px;
+  padding-top: 18px;
   border-top: 1px solid var(--border-light);
   font-size: 0.82rem;
   color: var(--warm-gray);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
 }
 
 .passion-authors strong {
-  font-weight: 500;
-  color: var(--navy);
   display: block;
-  margin-bottom: 4px;
-  font-size: 0.78rem;
-  letter-spacing: 1px;
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ===== LEAD MAGNET ===== */
+.lead-magnet {
+  background: linear-gradient(135deg, var(--cream-dark) 0%, var(--cream) 100%);
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lead-magnet::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.lead-magnet::after {
+  content: '';
+  position: absolute;
+  bottom: -120px;
+  left: -80px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.lead-magnet-inner {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.lead-magnet h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  color: var(--navy);
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.lead-magnet h2 em {
+  font-style: italic;
+  color: var(--gold-deep);
+}
+
+.lead-magnet p {
+  font-size: 1.05rem;
+  color: var(--warm-gray);
+  max-width: 520px;
+  margin: 0 auto 36px;
+  line-height: 1.7;
+}
+
+.lead-form {
+  display: flex;
+  gap: 10px;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.lead-form input {
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid var(--border-medium);
+  background: white;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--charcoal);
+  border-radius: 2px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.lead-form input:focus {
+  border-color: var(--gold);
+}
+
+.lead-form button {
+  padding: 14px 24px;
+  background: var(--navy);
+  color: var(--cream);
+  border: none;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.lead-form button:hover {
+  background: var(--navy-deep);
+  transform: translateY(-1px);
+}
+
+.lead-disclaimer {
+  margin-top: 16px;
+  font-size: 0.78rem;
+  color: var(--warm-gray-light);
+  letter-spacing: 0.02em;
 }
 
 /* ===== QUOTE ===== */
 .quote-section {
-  padding: 80px 0;
-  background: linear-gradient(135deg, var(--cream) 0%, #EDE7DD 100%);
+  padding: 100px 0;
+  background: var(--cream-light);
   text-align: center;
   position: relative;
 }
 
 .quote-section::before {
   content: '\201C';
-  font-family: 'Playfair Display', serif;
-  font-size: 12rem;
+  font-family: 'Fraunces', serif;
+  font-size: 14rem;
   color: var(--gold);
   opacity: 0.12;
   position: absolute;
-  top: -20px;
+  top: -30px;
   left: 50%;
   transform: translateX(-50%);
   line-height: 1;
+  font-weight: 500;
 }
 
 .quote-text {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.65rem;
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.7rem);
   font-weight: 400;
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--navy);
-  max-width: 680px;
-  margin: 0 auto 16px;
+  max-width: 720px;
+  margin: 0 auto 20px;
   position: relative;
   z-index: 1;
 }
 
 .quote-author {
-  font-size: 0.85rem;
+  font-size: 0.76rem;
   color: var(--gold);
-  letter-spacing: 2px;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   position: relative;
   z-index: 1;
+}
+
+.quote-author::before {
+  content: '— ';
+  opacity: 0.6;
 }
 
 /* ===== CONNECT ===== */
@@ -512,20 +1060,54 @@ section {
   background: var(--navy-deep);
   color: var(--cream);
   text-align: center;
-  padding: 100px 0 80px;
+  padding: 120px 0 70px;
+  position: relative;
+  overflow: hidden;
 }
 
-.connect .section-heading {
+.connect::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 500px;
+  background: radial-gradient(ellipse, rgba(196, 162, 101, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.connect-content {
+  position: relative;
+  z-index: 1;
+}
+
+.connect .section-label {
+  justify-content: center;
+}
+
+.connect .section-label::before {
+  background: var(--gold);
+}
+
+.connect h2 {
   color: var(--cream);
-  margin-bottom: 16px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 18px;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+.connect h2 em {
+  font-style: italic;
+  color: var(--gold-soft);
 }
 
 .connect-subtext {
   font-size: 1.05rem;
-  color: rgba(245, 240, 235, 0.6);
+  color: rgba(245, 240, 235, 0.65);
   font-weight: 300;
-  margin-bottom: 50px;
-  max-width: 500px;
+  margin-bottom: 52px;
+  max-width: 540px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.7;
@@ -534,23 +1116,24 @@ section {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 14px;
   flex-wrap: wrap;
+  margin-bottom: 56px;
 }
 
 .social-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 14px 28px;
+  padding: 13px 24px;
   border: 1px solid rgba(196, 162, 101, 0.25);
-  border-radius: 4px;
   color: var(--cream);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.04em;
   transition: all 0.3s ease;
+  border-radius: 2px;
 }
 
 .social-link:hover {
@@ -560,27 +1143,46 @@ section {
 }
 
 .social-link svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   fill: var(--gold);
   flex-shrink: 0;
 }
 
-.connect-footer {
-  margin-top: 60px;
-  padding-top: 30px;
-  border-top: 1px solid rgba(245, 240, 235, 0.08);
-  font-size: 0.78rem;
-  color: rgba(245, 240, 235, 0.3);
-  font-weight: 300;
-  letter-spacing: 0.5px;
+.connect-cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
-/* ===== SCROLL ANIMATIONS ===== */
+.connect-footer {
+  padding-top: 40px;
+  border-top: 1px solid rgba(245, 240, 235, 0.08);
+  font-size: 0.78rem;
+  color: rgba(245, 240, 235, 0.35);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.7;
+}
+
+.connect-footer a {
+  color: var(--gold-soft);
+  text-decoration: none;
+}
+
+.connect-footer-meta {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: rgba(245, 240, 235, 0.25);
+}
+
+/* ===== REVEAL ANIMATION ===== */
 .reveal {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .reveal.visible {
@@ -590,58 +1192,98 @@ section {
 
 /* ===== KEYFRAMES ===== */
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes scrollPulse {
-  0%, 100% { opacity: 0.5; }
+  0%, 100% { opacity: 0.4; }
   50% { opacity: 1; }
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
+  section { padding: 90px 0; }
   .hero-inner {
     flex-direction: column;
     text-align: center;
-    gap: 40px;
-    padding: 120px 0 80px;
+    gap: 48px;
+    padding-top: 40px;
   }
-  .hero-photo { width: 260px; height: 320px; }
+  .hero-photo { width: 280px; height: 350px; }
   .hero-photo-wrapper::before { display: none; }
-  .hero-name { font-size: 2.8rem; }
-  .hero-tagline { max-width: 100%; }
-  .story-content { grid-template-columns: 1fr; gap: 40px; }
-  .story-sidebar { position: static; }
-  .expertise-grid { grid-template-columns: 1fr; gap: 24px; }
-  .passions-grid { grid-template-columns: 1fr; gap: 24px; }
-  .section-heading { font-size: 2rem; }
+  .hero-photo-wrapper::after { display: none; }
+  .hero-tagline, .hero-description { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
+  .hero-greeting::before { display: none; }
+
+  .story-layout { grid-template-columns: 1fr; gap: 40px; }
+  .story-image-wrap { position: static; }
+
+  .work-grid { grid-template-columns: 1fr; gap: 18px; }
+
+  .cebu-feature-grid { grid-template-columns: 1fr; }
+  .cebu-image { min-height: 400px; }
+  .cebu-text { padding: 70px 40px; }
+
+  .passions-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
-  .hero-name { font-size: 2.2rem; }
-  .hero-photo { width: 220px; height: 280px; }
   section { padding: 70px 0; }
-  .social-links { flex-direction: column; align-items: center; }
-  .social-link { width: 80%; justify-content: center; }
+  .container, .container-narrow { width: 90%; }
+  .hero-photo { width: 240px; height: 300px; }
+  .nav { padding: 14px 18px; }
+  .nav.scrolled { padding: 12px 18px; }
+
+  .cebu-text { padding: 60px 24px; }
+  .passion-item { padding: 32px 24px; }
+
+  .lead-form { flex-direction: column; }
+  .lead-form button { padding: 14px; }
+
+  .social-links { flex-direction: column; align-items: stretch; padding: 0 20px; }
+  .social-link { justify-content: center; }
+
+  .connect-cta-row { flex-direction: column; padding: 0 20px; }
+  .connect-cta-row .btn { justify-content: center; }
 }
 </style>
 </head>
 <body>
 
+<!-- ===== NAV ===== -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-brand">Ronnel <em>Estrada</em></a>
+  <ul class="nav-links">
+    <li><a href="#story">Story</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#passions">Life</a></li>
+    <li><a href="#connect" class="nav-cta">Connect</a></li>
+  </ul>
+</nav>
+
 <!-- ===== HERO ===== -->
-<section class="hero">
+<section class="hero" id="top">
   <div class="hero-inner">
     <div class="hero-photo-wrapper">
-      <img class="hero-photo" src="assets/ronnel-photo.jpg" alt="Ronnel Estrada — Luxury Real Estate Specialist in Cebu, Philippines">
+      <img class="hero-photo" src="assets/ronnel-hero.png" alt="Ronnel Estrada — Licensed real estate advisor based in Cebu, Philippines">
     </div>
     <div class="hero-text">
-      <div class="hero-greeting">Welcome</div>
-      <h1 class="hero-name">Ronnel<br><em>Estrada</em></h1>
-      <p class="hero-tagline"><strong>Island-born. World-shaped. Purpose-driven.</strong><br>Luxury real estate specialist, psychology enthusiast, and lifelong learner — building meaningful connections from Cebu to the world.</p>
+      <div class="label hero-greeting">Cebu, Philippines</div>
+      <h1 class="hero-name">
+        Ronnel
+        <em>Estrada</em>
+      </h1>
+      <p class="hero-tagline">Island-born. World-shaped. Purpose-driven.</p>
+      <p class="hero-description">Licensed real estate advisor serving Cebu and beyond. Psychology-informed, client-first, and built on a journey from Siargao to the world and back.</p>
+      <div class="hero-actions">
+        <a href="#story" class="btn btn-primary">Read My Story <span class="btn-arrow">→</span></a>
+        <a href="#connect" class="btn btn-ghost">Let's Talk</a>
+      </div>
     </div>
   </div>
-  <a href="#story" class="hero-scroll">
+  <a href="#story" class="hero-scroll" aria-label="Scroll to story">
     <span>Discover</span>
     <div class="scroll-line"></div>
   </a>
@@ -650,140 +1292,216 @@ section {
 <!-- ===== STORY ===== -->
 <section class="story" id="story">
   <div class="container">
-    <div class="section-label reveal">My Story</div>
-    <h2 class="section-heading reveal">A Path Written by<br>Curiosity &amp; Courage</h2>
-    <div class="story-content">
+    <div class="story-layout">
       <div class="story-text reveal">
-        <p>Growing up on Siargao Island — long before the world discovered its waves — I learned early that life rewards those willing to move toward the unfamiliar. That instinct carried me from island shores to Manila's hotel lobbies, across the Middle East, and eventually to Cebu, the city I now proudly call home.</p>
-        <p>My journey hasn't followed a straight line, and I wouldn't have it any other way. I started in civil engineering at Xavier University, then pivoted to computer systems and programming, graduating from AMA while working part-time as service crew. I moved into hospitality — Manila Pavilion Hotel, Dusit Hotel Nikko — before spending four years overseas in Muscat, Oman and Jeddah, Saudi Arabia. Living abroad taught me resilience, cultural fluency, and the art of connecting with people from vastly different worlds.</p>
-        <p>When I returned to the Philippines in 2012, I chose Cebu as my permanent home. I went back to school — earning my BS Business Administration from the University of San Jose-Recoletos in 2017, all while working full-time in BPO as a customer service representative and tech support specialist. After graduation, I made the leap into real estate, and I never looked back.</p>
-        <p>Today, I specialize in luxury residences with Shang Properties — but what truly drives me is the intersection of behavioral psychology and human connection. I don't believe in pressure tactics. I believe in understanding people, earning trust, and guiding decisions with clarity and care.</p>
+        <div class="section-label">The Story</div>
+        <h2 class="section-heading">A path written by<br><em>curiosity &amp; courage</em></h2>
+        <p>Growing up on <strong>Siargao Island</strong> — long before the world discovered its waves — I learned early that life rewards people willing to move toward the unfamiliar. That instinct carried me from island shores to Manila's hotels, across the Middle East, and eventually to Cebu, the city I now call home.</p>
+        <p>My path has never been straight, and I wouldn't have it any other way. I started in civil engineering at Xavier University, pivoted to computer systems at AMA, then spent four years overseas in <strong>Muscat, Oman</strong> and <strong>Jeddah, Saudi Arabia</strong>. Living abroad taught me resilience, cultural fluency, and the quiet art of connecting with people from vastly different worlds.</p>
+        <p>I returned to the Philippines in 2012 and chose Cebu. Went back to school — earned my BS Business Administration from University of San Jose-Recoletos while working full-time in BPO. In 2015, I stepped into real estate. I never looked back.</p>
+        <p>Today, more than a decade in, I work as a <strong>licensed independent advisor</strong>. I study behavioral psychology and neuroscience the same way I approach the gym: as practice, not theory. I don't believe in pressure. I believe in <em>understanding people, earning trust, and guiding decisions with clarity.</em></p>
       </div>
-      <div class="story-sidebar reveal">
-        <ul class="journey-list">
-          <li><strong>Siargao Island</strong>Where it all began</li>
-          <li><strong>Xavier University &amp; AMA</strong>Civil engineering to computer systems</li>
-          <li><strong>Manila Hotels</strong>Pavilion Hotel · Dusit Hotel Nikko</li>
-          <li><strong>Oman &amp; Saudi Arabia</strong>Four years working overseas</li>
-          <li><strong>Cebu City, 2012</strong>Found home for good</li>
-          <li><strong>USJ-R, Class of 2017</strong>BS Business Administration</li>
-          <li><strong>Real Estate, 2013–Present</strong>Robinsons Land · Marco Polo · Alveo Land · Phinma · Golden Topper · Shang Properties</li>
-        </ul>
+
+      <div class="story-image-wrap reveal">
+        <img class="story-image" src="assets/ronnel-siargao.png" alt="Ronnel Estrada on a Siargao beach at sunset, looking out to sea">
+        <p class="story-image-caption">Siargao, where the story starts. The island taught me to move toward what I don't yet understand.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== EXPERTISE ===== -->
-<section class="expertise">
+<!-- ===== JOURNEY TIMELINE ===== -->
+<section class="journey">
+  <div class="container">
+    <div class="section-label reveal">The Route</div>
+    <h2 class="section-heading reveal">Seven places that <em>built this work</em></h2>
+    <ul class="journey-list reveal">
+      <li>
+        <h4>Siargao Island</h4>
+        <p>Where it began. Dapa — long before the world discovered the waves.</p>
+      </li>
+      <li>
+        <h4>Xavier University</h4>
+        <p>Three years of civil engineering. The first major pivot — and the first smart decision.</p>
+      </li>
+      <li>
+        <h4>AMA &amp; Manila</h4>
+        <p>Computer Systems Design &amp; Programming. Working through school.</p>
+      </li>
+      <li>
+        <h4>Oman &amp; Saudi</h4>
+        <p>Four years abroad. The lessons money can't buy and only distance can teach.</p>
+      </li>
+      <li>
+        <h4>Cebu City, 2012</h4>
+        <p>Came home for good. Worked BPO while finishing a marketing degree at USJ-R.</p>
+      </li>
+      <li>
+        <h4>Real Estate, 2015</h4>
+        <p>Found the work that combined everything — people, psychology, numbers, trust.</p>
+      </li>
+      <li>
+        <h4>Now</h4>
+        <p>Independent advisor based in Cebu. Still building. Still learning.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== WHAT I DO ===== -->
+<section class="work" id="work">
   <div class="container">
     <div class="section-label reveal">What I Do</div>
-    <h2 class="section-heading reveal">Expertise Built on<br>Experience &amp; Empathy</h2>
-    <div class="expertise-grid">
-      <div class="expertise-card reveal">
-        <span class="expertise-icon">🏛</span>
-        <h3>Luxury Real Estate</h3>
-        <p>Specializing in premium residences with Shang Properties — one of the Philippines' most prestigious developers. I guide high-net-worth clients through every step of acquiring their dream home.</p>
-      </div>
-      <div class="expertise-card reveal">
-        <span class="expertise-icon">🧠</span>
-        <h3>Psychology-Informed Selling</h3>
-        <p>I apply behavioral psychology and neuroscience-backed communication to create consultative experiences — not sales pitches. It's about understanding what truly matters to each client.</p>
-      </div>
-      <div class="expertise-card reveal">
-        <span class="expertise-icon">🌏</span>
-        <h3>Cross-Cultural Fluency</h3>
-        <p>From Siargao to Oman to Saudi Arabia — years of living and working across cultures gave me a rare ability to connect with diverse clients, including OFW investors and international buyers.</p>
-      </div>
+    <h2 class="section-heading reveal">Two ways I show up — <em>one principle underneath.</em></h2>
+    <p class="work-lead reveal">Whether I'm guiding a client through a purchase or teaching on social media, the thread is the same. I meet people where they are, teach what I know, and help them make decisions they won't regret.</p>
+
+    <div class="work-grid">
+      <article class="work-card reveal">
+        <span class="work-card-tag">EstateLink</span>
+        <h3>Real Estate <em>Advisory</em></h3>
+        <p>Licensed guidance for homebuyers and investors in Cebu and beyond. More than a decade of practice in the local market means I know how to help you find the right fit — not just close a deal.</p>
+        <a href="#connect" class="work-card-link">Work with me <span>→</span></a>
+      </article>
+
+      <article class="work-card reveal">
+        <span class="work-card-tag">Content</span>
+        <h3>Teaching <em>Out Loud</em></h3>
+        <p>Mind science, OFW wisdom, and the honest side of money and real estate — shared daily on Facebook, Instagram, and TikTok. No guru voice. Just a few steps ahead.</p>
+        <a href="#connect" class="work-card-link">Follow along <span>→</span></a>
+      </article>
     </div>
-    <div class="dev-list reveal">
-      Trusted by leading developers <span>·</span> Robinsons Land <span>·</span> Marco Polo <span>·</span> Alveo Land <span>·</span> Phinma Properties <span>·</span> Golden Topper <span>·</span> Shang Properties
+  </div>
+</section>
+
+<!-- ===== CEBU FEATURE (IMAGE + CREDENTIALS) ===== -->
+<section class="cebu-feature">
+  <div class="cebu-feature-grid">
+    <div class="cebu-image">
+      <img src="assets/ronnel-cebu.png" alt="Ronnel Estrada on a Cebu City rooftop at golden hour, skyline behind him">
+    </div>
+    <div class="cebu-text reveal">
+      <div class="section-label">Based in Cebu</div>
+      <h2>Local knowledge. <em>Global perspective.</em></h2>
+      <p>Cebu is home — and my working ground. From IT Park condos to North Cebu townships, from Mactan beachfront to highland residences, I know the submarkets, the inventory, and the pitfalls that don't show up in a brochure.</p>
+      <p>For OFW clients especially, I know how the decision feels — because I was one of you once. That shapes every conversation.</p>
+
+      <div class="cebu-credentials">
+        <strong>Licensed &amp; Accredited</strong>
+        PRC Real Estate Salesperson License No. 007584<br>
+        DHSUD Registration No. CVR-A-02/19-2104<br>
+        Real estate practice since 2015
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ===== PASSIONS ===== -->
-<section class="passions">
-  <div class="container">
+<section class="passions" id="passions">
+  <div class="container-narrow">
     <div class="section-label reveal">Life Beyond Work</div>
-    <h2 class="section-heading reveal">What Fuels Me</h2>
+    <h2 class="section-heading reveal">What keeps the <em>engine running</em></h2>
     <div class="passions-grid">
       <div class="passion-item reveal">
         <div class="passion-header">
-          <span class="passion-emoji">📚</span>
-          <h3>Self-Help &amp; Non-Fiction</h3>
+          <span class="passion-num">01</span>
+          <h3>Mind Science</h3>
         </div>
-        <p>An avid reader across personal productivity, habits, relationships, communication, and health and wellness. Books have been my mentors — shaping how I think, sell, and live.</p>
+        <p>Self-taught in neuroscience, behavioral psychology, and subconscious programming. I read the way some people watch TV — and I apply what works to how I sell, write, train, and live.</p>
         <div class="passion-authors">
-          <strong>Authors I Admire</strong>
-          Dale Carnegie · Stephen R. Covey · Mark Manson · Tony Robbins · Napoleon Hill · James Clear · Robert Kiyosaki · MJ DeMarco · Robert Cialdini · Seth Godin · Gary Vaynerchuk · and more
+          <strong>Shelves I live on</strong>
+          Carnegie · Covey · Manson · Robbins · Napoleon Hill · James Clear · Kiyosaki · DeMarco · Cialdini · Seth Godin · Gary Vaynerchuk
         </div>
       </div>
       <div class="passion-item reveal">
         <div class="passion-header">
-          <span class="passion-emoji">🧘</span>
-          <h3>Health &amp; Wellness</h3>
+          <span class="passion-num">02</span>
+          <h3>Fasting &amp; Meditation</h3>
         </div>
-        <p>Intermittent fasting, healthy keto, and daily meditation — I believe that a sharp mind starts with a disciplined body. Wellness isn't a trend for me; it's a foundation.</p>
+        <p>Intermittent fasting since 2015 — before it was trending. Daily meditation. I treat the body as the first discipline. Everything else builds on top.</p>
       </div>
       <div class="passion-item reveal">
         <div class="passion-header">
-          <span class="passion-emoji">🎬</span>
-          <h3>Mobile Filmmaking</h3>
-        </div>
-        <p>Crafting cinematic stories using nothing but a smartphone — proving that creativity isn't about the gear, it's about the vision.</p>
-      </div>
-      <div class="passion-item reveal">
-        <div class="passion-header">
-          <span class="passion-emoji">🥊</span>
+          <span class="passion-num">03</span>
           <h3>Boxing</h3>
         </div>
-        <p>Discipline, focus, and resilience — the ring teaches lessons that no classroom ever could. It keeps me grounded and sharp.</p>
+        <p>The gym is my laboratory. Everything I read about focus, patience, and handling rejection — I test it in the ring. The ring doesn't lie.</p>
+      </div>
+      <div class="passion-item reveal">
+        <div class="passion-header">
+          <span class="passion-num">04</span>
+          <h3>Mobile Filmmaking</h3>
+        </div>
+        <p>Cinematic stories shot with nothing but a phone. Proof that creativity isn't a gear problem — it's a vision problem.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ===== LEAD MAGNET ===== -->
+<section class="lead-magnet" id="checklist">
+  <div class="container-narrow lead-magnet-inner reveal">
+    <div class="section-label" style="justify-content:center;">Free Guide</div>
+    <h2>The OFW Condo Checklist — <em>12 questions to ask before you sign.</em></h2>
+    <p>The honest list I wish someone had given me. What pre-selling contracts don't spell out, what the fine print leaves vague, and what actually protects your money.</p>
+    <form class="lead-form" onsubmit="event.preventDefault(); alert('Connect your email service to enable this form. Suggested: ConvertKit, MailerLite, or Mailchimp.');">
+      <input type="email" placeholder="Your email address" required aria-label="Email address">
+      <button type="submit">Send Me the Checklist</button>
+    </form>
+    <p class="lead-disclaimer">No spam. One email when you sign up, occasional notes when I have something worth sharing.</p>
   </div>
 </section>
 
 <!-- ===== QUOTE ===== -->
 <section class="quote-section">
-  <div class="container">
-    <p class="quote-text reveal">"If you want to find the secrets of the Universe, think in terms of energy, frequency and vibration."</p>
-    <span class="quote-author reveal">— Nikola Tesla</span>
+  <div class="container-narrow">
+    <p class="quote-text reveal">If you want to find the secrets of the Universe, think in terms of energy, frequency and vibration.</p>
+    <span class="quote-author reveal">Nikola Tesla</span>
   </div>
 </section>
 
 <!-- ===== CONNECT ===== -->
-<section class="connect">
-  <div class="container">
+<section class="connect" id="connect">
+  <div class="container connect-content">
     <div class="section-label reveal">Let's Connect</div>
-    <h2 class="section-heading reveal">Say Hello</h2>
-    <p class="connect-subtext reveal">Whether you're exploring luxury real estate in Cebu, curious about behavioral psychology, or just want to talk story — I'd love to hear from you.</p>
+    <h2 class="reveal">Say <em>hello.</em></h2>
+    <p class="connect-subtext reveal">Exploring real estate in Cebu. Want to talk mind science, the OFW journey, or just talk story — I read every message.</p>
+
+    <div class="connect-cta-row reveal">
+      <a href="mailto:hello@ronnelestrada.com" class="btn btn-primary">Email Me <span class="btn-arrow">→</span></a>
+      <a href="https://m.me/ronnelestrada28" class="btn btn-ghost" target="_blank" rel="noopener">Message on Facebook</a>
+    </div>
+
     <div class="social-links reveal">
-      <a href="https://www.instagram.com/stories/ronvibeph/" target="_blank" rel="noopener noreferrer" class="social-link">
-        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-        Instagram
-      </a>
-      <a href="https://ph.linkedin.com/in/ronnelestrada" target="_blank" rel="noopener noreferrer" class="social-link">
-        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        LinkedIn
-      </a>
       <a href="https://www.facebook.com/ronnelestrada28" target="_blank" rel="noopener noreferrer" class="social-link">
-        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
         Facebook
       </a>
-      <a href="https://ronnelestrada.com/" target="_blank" rel="noopener noreferrer" class="social-link">
-        <svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1 19.938A8.004 8.004 0 013.062 12H5v1h2v-2H3.062A8.004 8.004 0 0111 3.062V5h2V3.062A8.004 8.004 0 0120.938 11H19v2h1.938A8.004 8.004 0 0113 19.938V18h-2v1.938z"/></svg>
-        Website
+      <a href="https://www.instagram.com/ronvibeph/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        Instagram
+      </a>
+      <a href="https://www.tiktok.com/@ronvibeph" target="_blank" rel="noopener noreferrer" class="social-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005.8 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1.84-.1z"/></svg>
+        TikTok
+      </a>
+      <a href="https://ph.linkedin.com/in/ronnelestrada" target="_blank" rel="noopener noreferrer" class="social-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
       </a>
     </div>
-    <div class="connect-footer">
-      © 2026 Ronnel Estrada · Cebu City, Philippines
+
+    <div class="connect-footer reveal">
+      © 2026 Ronnel Estrada · Cebu City, Philippines<br>
+      <div class="connect-footer-meta">
+        EstateLink · Licensed REB No. 007584 · DHSUD CVR-A-02/19-2104
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SCROLL REVEAL SCRIPT ===== -->
+<!-- ===== SCRIPTS ===== -->
 <script>
+// Reveal on scroll
 document.addEventListener('DOMContentLoaded', () => {
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
@@ -795,6 +1513,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
   reveals.forEach(el => observer.observe(el));
+
+  // Nav background on scroll
+  const nav = document.getElementById('nav');
+  const handleScroll = () => {
+    if (window.scrollY > 60) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  };
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
 });
 </script>
 
