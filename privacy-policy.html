@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — EstateLink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --slate: #2C4770;
+      --sand: #F2E8D5;
+      --copper: #B07340;
+      --copper-light: #c9895e;
+      --dark: #1a2a3a;
+      --text: #3a3a3a;
+      --muted: #7a7a7a;
+      --border: rgba(44,71,112,0.12);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #faf8f4;
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      background: var(--slate);
+      padding: 28px 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      background: var(--copper);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      letter-spacing: -0.5px;
+      flex-shrink: 0;
+    }
+
+    .logo-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.5px;
+    }
+
+    .logo-text span {
+      color: var(--copper-light);
+    }
+
+    /* Hero band */
+    .hero {
+      background: var(--sand);
+      border-bottom: 1px solid var(--border);
+      padding: 56px 40px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -40px;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(44,71,112,0.05);
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      right: 80px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: rgba(176,115,64,0.08);
+    }
+
+    .hero-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--copper);
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(36px, 5vw, 52px);
+      font-weight: 600;
+      color: var(--slate);
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+
+    .hero-meta {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    .hero-meta strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* Main content */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 40px 80px;
+    }
+
+    .intro-block {
+      background: white;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--copper);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--text);
+    }
+
+    .intro-block p + p {
+      margin-top: 12px;
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 44px;
+    }
+
+    .section-number {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--copper);
+      margin-bottom: 6px;
+    }
+
+    .section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--slate);
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .section p,
+    .section li {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .section ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .section ul li {
+      margin-bottom: 6px;
+    }
+
+    .section ul li::marker {
+      color: var(--copper);
+    }
+
+    .section p + p {
+      margin-top: 12px;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 44px 0;
+    }
+
+    /* Contact block */
+    .contact-block {
+      background: var(--slate);
+      border-radius: 12px;
+      padding: 36px 40px;
+      color: white;
+      margin-top: 56px;
+    }
+
+    .contact-block h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: white;
+    }
+
+    .contact-block p {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 20px;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 14px;
+    }
+
+    .contact-label {
+      color: var(--copper-light);
+      font-weight: 500;
+      min-width: 80px;
+      flex-shrink: 0;
+    }
+
+    .contact-value {
+      color: white;
+      font-weight: 300;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--dark);
+      padding: 24px 40px;
+      text-align: center;
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      font-weight: 300;
+      letter-spacing: 0.3px;
+    }
+
+    footer a {
+      color: var(--copper-light);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 20px 20px; }
+      .hero { padding: 40px 20px 36px; }
+      main { padding: 40px 20px 60px; }
+      .contact-block { padding: 28px 24px; }
+      footer { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-mark">E</div>
+    <div class="logo-text">Estate<span>Link</span></div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Legal &amp; Compliance</div>
+      <h1>Privacy Policy</h1>
+      <p class="hero-meta">
+        <strong>Effective Date:</strong> May 5, 2026 &nbsp;·&nbsp;
+        <strong>Last Updated:</strong> May 5, 2026
+      </p>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="intro-block">
+      <p>EstateLink, operated by Ronnel Estrada (PRC Accred. No. 007584 | DHSUD Accred. No. CVR-A-02/19-2104), is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard the information you share with us through our Facebook Page, Messenger, advertisements, and website at <strong>ronnelestrada.com</strong>.</p>
+      <p>By interacting with our page or messaging us, you agree to the practices described in this policy.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">01</div>
+      <h2>Information We Collect</h2>
+      <p>When you interact with EstateLink through Facebook Messenger, our ads, or our website, we may collect the following:</p>
+      <ul>
+        <li>Your name and Facebook profile information (as made public)</li>
+        <li>Contact details you voluntarily share (phone number, email address)</li>
+        <li>Your responses to automated chat questions (e.g., property interest, budget range, preferred contact method)</li>
+        <li>General location information (e.g., city or region)</li>
+        <li>Any other details you share during our conversations</li>
+      </ul>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">02</div>
+      <h2>How We Use Your Information</h2>
+      <p>We use the information you provide solely to:</p>
+      <ul>
+        <li>Respond to your property inquiries and provide relevant listings</li>
+        <li>Send you property details, assume unit information, and investment breakdowns you requested</li>
+        <li>Follow up on your interest in EstateLink's real estate advisory services</li>
+        <li>Improve how we communicate and serve future clients</li>
+      </ul>
+      <p>We do <strong>not</strong> sell, rent, or trade your personal information to third parties.</p>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">03</div>
+      <h2>How We Store Your Information</h2>
+      <p>Your information may be stored in our Messenger inbox, CRM tools, and secure contact lists. We retain your information only as long as necessary to serve your inquiry or as required by applicable Philippine law, including the Data Privacy Act of 2012 (Republic Act No. 10173).</p>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">04</div>
+      <h2>Facebook &amp; Messenger</h2>
+      <p>When you interact with us through Facebook or Messenger, Facebook's own privacy policy also applies. EstateLink's automated chat collects your responses only to qualify and serve your inquiry. We do not access any data beyond what you voluntarily share in the conversation.</p>
+      <p>For Facebook's data practices, visit: <strong>facebook.com/privacy/policy</strong></p>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">05</div>
+      <h2>Your Rights Under Philippine Law</h2>
+      <p>Under the Data Privacy Act of 2012, you have the right to:</p>
+      <ul>
+        <li>Be informed about how your data is used</li>
+        <li>Access the personal information we hold about you</li>
+        <li>Correct inaccurate or outdated information</li>
+        <li>Request erasure of your data, subject to legal limitations</li>
+        <li>Withdraw consent to our use of your data at any time</li>
+      </ul>
+      <p>To exercise any of these rights, contact us directly using the details below.</p>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">06</div>
+      <h2>Cookies &amp; Website Tracking</h2>
+      <p>Our website (ronnelestrada.com) may use cookies and a Meta Pixel (ID: 1474546497428016) to track visits and ad performance. This helps us understand which content or ads are most relevant to our audience. You may adjust your browser settings to decline cookies at any time.</p>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="section">
+      <div class="section-number">07</div>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. The most current version will always be available at <strong>ronnelestrada.com/privacy-policy</strong>. Continued use of our services after any update constitutes your acceptance of the revised policy.</p>
+    </div>
+
+    <div class="contact-block">
+      <h3>Questions or Concerns?</h3>
+      <p>If you have any questions about this Privacy Policy or how your data is handled, please reach out directly.</p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="contact-label">Name</span>
+          <span class="contact-value">Ronnel Estrada — EstateLink</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">ronphierce@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Viber/WA</span>
+          <span class="contact-value">+63 956 651 0333</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Website</span>
+          <span class="contact-value">ronnelestrada.com</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2026 EstateLink · Ronnel Estrada · Licensed Real Estate Salesperson · PRC Accred. No. 007584
+    &nbsp;·&nbsp; <a href="https://ronnelestrada.com">ronnelestrada.com</a>
+  </footer>
+
+</body>
+</html>
